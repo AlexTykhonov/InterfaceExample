@@ -14,8 +14,8 @@ public class Exampletwo {
         MusicalInstrument[] musicalInstruments = {drums, drums2, guitar, guitar2, horn, horn2};
 
 
-        for (int i = 0; i < musicalInstruments.length;i++) {
-
+        for (int i = 0; i < musicalInstruments.length; i++) {
+            musicalInstruments[i].play();
         }
 
     }
